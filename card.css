@@ -1,0 +1,35 @@
+th{
+    font-family: cursive;
+    font-weight: bold;
+    font-variant: small-caps;
+     background-color:rgb(226, 139, 215);
+}
+td{
+    font-family:fantasy;
+    font-weight:normal;
+    font-style: italic;
+}
+h3{
+    font-family: monospace;
+    font-style: italic;
+    color:brown;
+    font-size: large;
+}
+
+th:nth-of-type(odd)
+{
+color:rgb(117, 117, 248);
+}
+th:nth-of-type(even)
+{
+    color:rgb(23, 235, 104);
+}
+tr:nth-of-type(even)
+{
+    color:rgb(224, 90, 90);
+}
+tr:nth-of-type(odd)
+{
+    color:rgb(41, 197, 236);
+}
+   

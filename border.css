@@ -1,0 +1,39 @@
+.c1{
+    border: 5px solid rgb(109, 247, 109);
+    color: rgb(224, 120, 137);
+    margin: 50px;
+    padding:50px;
+    font-size:70px;
+    align-items: center;
+    background-color:aquamarine;
+    display:flex;
+    width:100;
+}
+.c2{
+    border: 5px solid rgb(1, 188, 235);
+    color: rgb(250, 10, 122);
+    margin: 100px;
+    padding-bottom:50px;
+    font-size:50px;
+    background-color:rgb(211, 188, 233);
+}
+.c1:hover{
+    background-color: green;
+    transform:skew(100deg);
+    transform:rotateX(50deg);
+    transition: 5s Linear;
+    width:300;
+}
+.c2:hover{
+    color:blue;
+    font-weight: bold;
+}
+div{
+    display:inline-flex;
+    background-color: bisque;
+    flex-direction:column;
+    grid-template-areas: auto auto auto auto;
+    border:2px solid red;
+column-gap:10px;
+align-items:stretch;
+}

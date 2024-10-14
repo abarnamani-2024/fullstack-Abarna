@@ -1,0 +1,26 @@
+#myid{
+    font-weight: bold; 
+    font-style: oblique;
+}
+#abc{
+    font-weight:700;
+    font-style:italic;
+}
+p{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.cls{
+    font-style: italic;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul li
+{
+    font-family:cursive;
+    font-size:medium;
+}

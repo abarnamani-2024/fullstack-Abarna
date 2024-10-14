@@ -1,0 +1,332 @@
+/*   home page css*/
+h2{
+    text-align: center;
+    border:10px solid blueviolet;
+    padding:200px;
+    background:linear-gradient(to left, rgb(159, 247, 159),rgb(33, 200, 223));
+    border-style:hidden;
+   font-family:cursive;
+   text-shadow:5px 5px 5px rgb(63, 25, 233) ;
+   color:rgb(241, 4, 222);
+   font-size:100px;
+   border-right:5px solid;
+   border-left:5px solid;
+   border-radius:30px;
+   background-image: url(image-2.jpg);
+   background-size:cover;
+   
+}
+.head1{
+    display:flex;
+    justify-content: space-around;
+   }
+h3{
+    border:5px solid rgb(214, 188, 238);
+    margin-left:10px;
+    padding:30px;
+    border-radius: 10px;
+    background-color: rgb(214, 188, 238);
+    display:flex;
+    color:rgb(144, 32, 250);
+}
+a{
+    text-decoration: none;
+}
+h4{
+    /*background-image: url("busdoodle.jpg");
+    background-position:50px;*/
+    color:rgb(13, 243, 166);
+    font-size: 80px;
+    
+   /* border-left:15px double rgb(236, 144, 108);
+    
+    border-bottom:2px solid rgb(236, 144, 108);
+    border-top:2px solid rgb(236, 144, 108);
+    border-right:15px double rgb(236, 144, 108);*/
+      text-align:center;
+     text-shadow:2px 2px 2px rgb(27, 245, 7);
+
+}
+span{
+    text-align:center;
+    text-decoration-line: underline;
+    font-size:70px;
+}
+li {
+    color:rgb(131, 93, 238);
+    display:inline;
+    /*text-shadow:1px 1px 1px rgb(6, 4, 26);*/
+    font-family:fantasy;
+    text-align:justify;
+}
+.c3{
+    color:rgb(241, 68, 83);
+    border:2px solid rgb(228, 158, 158);
+    margin:3px;
+    display:grid;
+    /*flex-direction: column;*/
+    padding-left:5px;
+    padding-top:15px;
+    flex-wrap:wrap;
+   /* background-color: rgb(180, 255, 255);*/
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows:auto auto;
+    
+}
+ /* form Css*/
+.form1{
+    border:4px solid rgb(250, 117, 117);
+    margin:10px;
+    padding:50px;
+    border-radius:10px;
+    text-align: justify;
+    background-image: linear-gradient(to top, rgb(238, 238, 142), rgb(139, 210, 238));
+    
+}
+.fhead{
+    border:5px solid rgb(250, 117, 117);
+    padding:50px;
+    margin-bottom:10px;
+    border-radius:50px;
+    font-size:50px;
+    font-family:cursive;
+   
+
+}
+.fhead:hover{
+    background-color:rgb(250, 117, 117);
+    transition:width 3s ease-in;
+    width:90%;
+}
+/* form CSS End*/
+/* Payment page*/
+.pay-1{
+        background-image:url()
+}
+
+/*     for contact page*/
+.cc1{
+    border:5px solid rgb(224, 132, 236);
+    padding:30px;
+    margin:10px;
+    border-radius:50px;
+    font-size:20px;
+    font-family:cursive;
+    color:rgb(173, 87, 243);
+background-image: url(https://media.istockphoto.com/id/2162101976/photo/watercolor-background-in-bleached-colors-purple-lavender-lilac-pink-with-copy-space.jpg?s=612x612&w=0&k=20&c=DMyQ3PpDFcPkYB4JkLyUXxBYxLwvzvxo2J7p7fsUyfQ=);
+}
+.cc1:hover{
+    color:rgb(102, 31, 233);
+    transform: scale(1.1);
+    background-color: rgb(228, 172, 240);
+
+}
+.cc2{
+    border:4px solid rgb(224, 132, 236);
+    padding:5px;
+    margin:10px;
+    display:grid;
+    display:wrap;
+    grid-template-rows:auto auto auto;
+    grid-template-columns:auto auto auto;
+
+}
+#idcontact{
+    color:rgb(240, 77, 77);
+    font-size:30px;
+    text-decoration-line: underline;
+
+} /* contact css finish*/
+    /*  for more info page*/
+
+   .more1{
+    color:rgb(240, 77, 77);
+    font-size:40px;
+    text-decoration-line:unset;
+    border-left:10px outset rgb(79, 189, 240);
+    background-color: rgb(205, 240, 245);
+
+   } 
+   .more{
+    display:grid;
+    text-align:justify;
+
+   }
+   .more1+p{
+font-size:20px;
+   }
+
+   /*  More info page CSS finish*/ 
+
+
+
+   /* for payment page*/
+   .p1{
+    border:2px solid rgb(82, 229, 240);
+    padding:10px;
+    margin:10px;
+    /*border-radius:50px;*/
+    font-size:20px;
+    font-family:cursive;
+    color:rgb(226, 17, 253);
+    color:blueviolet;
+   }
+   tr:nth-child(odd){
+     background:linear-gradient(to left,rgb(161, 226, 252),rgb(152, 247, 199));
+     padding:20px;
+   }
+   tr:nth-child(even){
+    background:linear-gradient(to left,rgb(152, 247, 199),rgb(161, 226, 252));
+    padding:20px;
+
+  }
+  th{
+    background-color: rgb(176, 248, 173);
+  }
+  table{
+    background-color: rgb(238, 215, 245);
+    border:6px double rgb(247, 163, 209);
+    font-family: cursive;
+    color:rgb(7, 111, 247);
+    border-radius: 30px;
+    text-align:center;
+    margin:15px;
+  }
+  .p2{
+    display:inline-table
+  }
+ 
+/*.c3{
+    display: grid;
+    color:rgb(238, 34, 7);
+    flex-direction: column;
+    background-color: azure;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:stretch;
+}*/
+nav{
+    border:20px border rgb(235, 98, 34);
+    background:linear-gradient(to top,rgb(180, 219, 241),rgb(82, 235, 235));
+    display:block;
+    font-size:35px;
+    color: rgb(89, 26, 206);
+}
+nav:hover{
+    border:10px;
+    padding:5px;
+    color:rgb(247, 96, 59);
+}
+
+.c4{
+    margin:5px;
+    padding:50px;
+    border:5px solid greenyellow;
+    font-size: 20px;
+    border-radius:20px;
+}
+.c5{
+    margin:5px;
+    padding:50px;
+    border:5px solid rgb(224, 155, 241);
+    font-size: 20px;
+    border-radius:20px;
+
+}
+.c6{
+    margin:5px;
+    padding:50px;
+    border:5px solid rgb(224, 155, 241);
+    font-size: 20px;
+    border-radius:20px;
+
+}
+.c7{
+    margin:5px;
+    padding:50px;
+    border:5px solid greenyellow;
+    font-size: 20px;
+    border-radius:20px;
+
+}
+.c8{
+    margin:20px;
+    padding:30px;
+    border:10px solid yellowgreen;
+}
+#id1{
+    border:10px solid violet;
+    padding:10px;
+    margin:200px;
+    font-family: cursive;
+}
+#id1:hover{
+    height:20px;
+    background-color:rgb(171, 229, 240);
+    transition:heigth 5s linear;
+}
+.c4:hover{
+    height:120px;
+    background-color:rgb(206, 248, 144);
+    transition:height 3s ease-out;
+
+}
+.c5:hover{
+    height:120px;
+    background-color:rgb(233, 199, 224);
+    transition:height 3s ease-out;
+
+}
+.c6:hover{
+    height:120px;
+    background-color:rgb(233, 199, 224);
+    transition:height 3s ease-out;
+
+}
+.c7:hover{
+    height:120px;
+    background-color:rgb(206, 248, 144);
+    transition:height 3s ease-out;
+
+}
+/*.c4{
+    display:inline-flex;
+    
+    border-right:100px solid red;
+    margin-right:20px;
+    padding:10px;
+}*/
+
+/* cancel form*/
+
+.cancel{
+    border:10px double rgb(255, 151, 246);
+    padding:30px;
+    text-align:justify;
+    background-color:rgb(252, 198, 225);
+    display:block;
+    font-family: cursive;
+    color:rgb(226, 37, 24);
+    text-decoration:solid;
+    height:1000px;
+    font-size: 30px;
+    align-content:space-evenly;
+    background-image: url(https://media.istockphoto.com/id/1074160890/photo/colorful-cotton-candy-soft-fog-and-clouds-with-a-pastel-colored-pink-to-skyblue-gradient-for.jpg?s=612x612&w=0&k=20&c=sCroiHJXJkX0tnUzWNnJope8WuA6VTDZCI5sehdNnwg=);
+background-size: cover;
+}
+.cancel1{
+    text-align:center;
+}
+
+/* Track page*/
+
+.track-1{
+    border:5px  rgb(227, 159, 248);
+    padding:50px;
+    margin-bottom:10px;
+    font-size:50px;
+    font-family:cursive;
+   background-image: url(https://media.istockphoto.com/id/1252982760/photo/defocused-lights-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=-2z2swXDjVV5BZiG5O4GPxvjBbjx0zpRTU31h9qzj8E=);
+   background-size:cover;
+
+}

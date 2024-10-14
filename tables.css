@@ -1,0 +1,47 @@
+//
+.cls1{
+    background: linear-gradient(to left, rgb(41, 230, 236),rgb(77, 231, 90));
+    border:10px solid white;
+    
+    white-space:normal;
+    padding:10px;
+}
+//
+tr:nth-child(even){
+    background:#b0b3b6;
+    
+}
+tr:nth-child(odd){
+    background: rgb(250, 237, 237);
+}
+//
+.cls2{
+    color: rgb(245, 223, 223);
+    background-color: rgb(102, 86, 86);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top:10px;
+    padding-right:15px;
+    padding-bottom:10px;
+    padding-left:15px;
+    border:solid;
+width: 200px;
+text-align: left;
+}
+
+
+.cls3{
+    background-color: rgb(49, 52, 54);
+    padding: 20px;
+    
+}
+tr:nth-child(even){
+    background:#ebecee;
+    
+}
+tr:nth-child(odd){
+    background: rgb(250, 248, 248);
+}
+th{
+    background-color:rgb(252, 126, 126);
+}
