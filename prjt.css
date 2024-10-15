@@ -101,7 +101,13 @@ li {
 /* form CSS End*/
 /* Payment page*/
 .pay-1{
-        background-image:url()
+        width:100%;
+        height:60px;
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrzRnS4G78iAysW4b9KVIEoibYgMQ5lyzTQ&s");
+        font-size: 50px;
+        text-align: center;
+        background-size: cover;
+        color:rgb(18, 240, 192)
 }
 
 /*     for contact page*/
@@ -300,9 +306,8 @@ nav:hover{
 /* cancel form*/
 
 .cancel{
-    border:10px double rgb(255, 151, 246);
+    border:5px solid rgb(255, 151, 246);
     padding:30px;
-    text-align:justify;
     background-color:rgb(252, 198, 225);
     display:block;
     font-family: cursive;
@@ -310,9 +315,9 @@ nav:hover{
     text-decoration:solid;
     height:1000px;
     font-size: 30px;
-    align-content:space-evenly;
     background-image: url(https://media.istockphoto.com/id/1074160890/photo/colorful-cotton-candy-soft-fog-and-clouds-with-a-pastel-colored-pink-to-skyblue-gradient-for.jpg?s=612x612&w=0&k=20&c=sCroiHJXJkX0tnUzWNnJope8WuA6VTDZCI5sehdNnwg=);
 background-size: cover;
+margin:5px;
 }
 .cancel1{
     text-align:center;
@@ -329,4 +334,22 @@ background-size: cover;
    background-image: url(https://media.istockphoto.com/id/1252982760/photo/defocused-lights-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=-2z2swXDjVV5BZiG5O4GPxvjBbjx0zpRTU31h9qzj8E=);
    background-size:cover;
 
+}
+.button{
+   
+        border:5px solid rgb(82, 229, 240);
+        padding:10px;
+        margin:10px;
+        /*border-radius:50px;*/
+        font-size:25px;
+        font-family:cursive;
+        color:rgb(204, 10, 243);
+        background-color:rgb(167, 227, 241) ;
+        border-radius: 50px;
+        width:250px;
+    
+       
+}
+.button:hover{
+    background-color:rgb(168, 236, 214)
 }
