@@ -15,3 +15,5 @@ do{
     console.log("Thankyou");
     n++;
 }while(n<2)
+
+    
