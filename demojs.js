@@ -1,5 +1,5 @@
 console.log("welcome");
-n=1;
+n=-2;
 switch (n)
 {
 case 1:
@@ -11,3 +11,7 @@ case 2:
     case 3:
         console.log("submit");
 }
+do{
+    console.log("Thankyou");
+    n++;
+}while(n<2)
